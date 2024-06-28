@@ -1,6 +1,6 @@
 # Ternary map by Python (test)
 
-This repository contains a Jupyter Notebook for analyzing and visualizing data using ternary plots. Ternary plots are useful for displaying the proportions of three variables that sum to a constant. 
+This repository contains a Jupyter Notebook for analyzing and visualizing data using ternary plots. 
 
 
 ## Contents
@@ -20,8 +20,8 @@ To run the notebook, you will need the following Python packages installed:
 - `gdal`
 
 ## Data prepare
-- Prepare your data for ternary plotting.
+Prepare your data for ternary plotting.
 - `The dataset should contain three TIFF files representing the proportions of three factors (summing to 1).`
-- `省.shp and 十段线.shp are boundaries.shp`
+- `boundaries.shp （省.shp and 十段线.shp in notebook）`
 ## Note
 Please note that the map and legend are drawn separately and need to be combined later.
